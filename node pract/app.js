@@ -9,6 +9,11 @@
 
 
 
+
+
+
+
+
 // GLOBAL OBJECT
 
 // var message="";
@@ -16,6 +21,15 @@
 
 
 
+
+
+
+
+
 // MODULES
 
-console.log(module);
+// console.log(module);
+
+// creating a module
+
+require('./logger')
