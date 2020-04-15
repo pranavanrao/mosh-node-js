@@ -22,5 +22,4 @@ app.get('/api/posts/:year/:month', (req, res) => {
 });
 
 const port = process.env.PORT || 3000;
-
 app.listen(port, () => console.log(`Listening to the port ${port}.........`));
